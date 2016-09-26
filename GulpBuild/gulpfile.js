@@ -45,8 +45,8 @@ gulp.task(adminName,function(cb){
 gulp.task(userName,function(cb){
 	gulp.src(base_path + sep + user_path + sep + js_pattern)
 		.pipe(ahluo.uglify())
-		.pipe(ahluo.concat(user_file_name + sep + admin_path))
-		.pipe(gulp.dest(output_file_path));
+		.pipe(ahluo.concat(user_file_name))
+		.pipe(gulp.dest(output_file_path + sep + user_path));
 });
 
 //operate all javascript

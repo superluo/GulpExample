@@ -11,9 +11,9 @@
 	},
 	"base" : {
 		"name" : "base",
-		"path" : "services",
+		"path" : "../services_module",
 		"js_pattern" : "*.js",
-		"buildPath" : "build",
+		"buildPath" : "../build",
 		"suffix" : ".min.js"
 	}
 }
