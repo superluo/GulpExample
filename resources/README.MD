@@ -1,1 +1,0 @@
-## Gulp Learning Sample Example
